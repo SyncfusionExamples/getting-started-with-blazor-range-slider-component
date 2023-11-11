@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<SfSlider Value="RangeValue" Type="SliderType.Range" ShowButtons="true">
+    <SliderTooltip IsVisible="true" ShowOn="TooltipShowOn.Always"
+                   Placement="TooltipPlacement.After"></SliderTooltip>
+    <SliderTicks SmallStep="10" LargeStep="20" Placement="Placement.After" ShowSmallTicks="true"
+                 Format="##.##km"></SliderTicks>
+    <SliderLimits Enabled="true" MinStart="10" MinEnd="30"
+                  MaxStart="40" MaxEnd="60"></SliderLimits>
+</SfSlider>
+
+@code {
+    public int[] RangeValue = { 30, 70 };
+}
+
+<style>
+    .e-control-wrapper.e-slider-container .e-slider .e-handle {
+        background-color: #f9920b;
+        border-radius: 50%;
+        border: 0;
+    }
+</style>
