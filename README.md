@@ -8,7 +8,10 @@ A quick-start project that helps you get up and running with the Syncfusion Rang
 
 ## Prerequisites
 
-* Visual Studio 2022
+* .NET 10 SDK
+* Visual Studio 2022 (17.14 or later) or the .NET CLI
+
+The sample is a standalone Blazor WebAssembly application. It does not require LocalDB, SQL Server, Entity Framework, or any external API. The Syncfusion Range Slider renders from local component scripts and the Bootstrap 5 theme. A Syncfusion license key is optional for development; without one, a license banner may appear.
 
 ## How to run the project
 
