@@ -32,20 +32,37 @@ This sample demonstrates how to use the Syncfusion [Blazor Range Slider](https:/
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the project directory.
+3. Navigate to the `Server` project directory:
+
+```bash
+cd Server 
+```
+
+4. Restore project dependencies:
 
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-4. Open the URL displayed in the terminal after the application starts.
+6. Open the local URL displayed in the terminal after the application starts.
 
 ## Project Structure
 
 - `GettingStarted.sln` — Visual Studio solution file containing the sample projects.
 
+- `Client/` — Contains the Blazor WebAssembly client application.
+
 - `Client/Pages/Index.razor` — Demonstrates the Range Slider component with buttons, tooltips, ticks, limits, and custom styling.
+  
+- `Server/` — Hosts and serves the Blazor WebAssembly application.
+
+- `Shared/` — Contains shared models and resources used by both the Client and Server projects.
 
 ## Support and Feedback
 
